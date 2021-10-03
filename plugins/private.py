@@ -14,15 +14,15 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Summon AMELIA 💖", url=f"https://t.me/{AmeliaMusic_Robot}?startgroup=true")],
+                        "➕ Summon AMELIA 💖", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "📲 Updates", url=f"https://t.me/{Empire_Network}"), 
+                        "📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/{Empire_Support21}")
+                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{Rupayan_02Roy}")
+                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
                 ]
             ]
         ),
@@ -37,7 +37,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/{Empire_Support21}"
+                        "💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ]
             ]
